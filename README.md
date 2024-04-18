@@ -2,7 +2,7 @@
 
 ![BLOG](https://github.com/abelpriem/API-Rest-Blog/assets/133054841/d466f05e-90ba-4d0c-b41a-cf0d83ebded8)
 
-> This is a complete, fully functional Rest API to implement on a blogging website. It is capable of creating articles by associating images with them through a file upload system as well as the possibility of listing them through a search engine.
+> This is a complete, fully functional `API Rest` to implement on a blogging website with `CRUD`. It is capable of creating articles by associating images with them through a file upload system as well as the possibility of listing them through a search engine.
 
 ## SUMMARY
 
@@ -10,6 +10,7 @@
 - [x] Functional API to download and deploy
 - [x] Using `MULTER` librery and `FS` package from NodeJS to upload images and associate them with certain articles
 - [x] Allowed extensions: .jpg | .jpeg | .png | .gift
+- [x] All with `CRUD system`
 - [x] Search for articles by title or content
 
 ## MODELS

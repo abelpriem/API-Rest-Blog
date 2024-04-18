@@ -29,11 +29,11 @@
     type: String,
     required: true
 },
-  "date": {
+  "date" : {
     type: Date,
     default: Date.now()
 },
-  "image": {
+  "image" : {
     type: String,
     default: default.jpg
   }

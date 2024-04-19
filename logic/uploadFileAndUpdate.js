@@ -13,6 +13,11 @@ export default async function uploadFileAndUpdate(articleId, filePath, fileName,
         }
 
         const article = await Article.findById(articleId)
+
+        if (!article) {
+            throw new NotFoundError('Article not found... Try again')
+        }
+
         article.img = fileName
         await article.save()
 

@@ -5,7 +5,7 @@ const { SystemError, ContentError, DuplicityError } = errors
 
 export default async function createArticle(title, content) {
     try {
-        const validateTitle = !validator.isEmpty(title) && validator.isLength(title, { min: 0, max: 10 })
+        const validateTitle = !validator.isEmpty(title)
         const validateContent = !validator.isEmpty(content)
 
         if (!validateContent || !validateTitle) {
